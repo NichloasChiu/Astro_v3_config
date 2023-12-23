@@ -32,6 +32,8 @@ local plugins = {
 	{ import = "astrocommunity.pack.lua" },
 	{ import = "astrocommunity.pack.bash" },
 	{ import = "astrocommunity.completion.cmp-cmdline" },
+	{ import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
 }
 
 return plugins
