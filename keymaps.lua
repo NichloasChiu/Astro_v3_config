@@ -175,8 +175,11 @@ function M.mappings(maps)
 	maps.n["<leader><leader>t"] = { "<cmd>TableModeToggle<cr>", desc = "MarkDown表模式" }
 
 	maps.n["<leader>a"] = { desc = "󱂬 Move Ducument" }
-	maps.n["<leader>aw"] = { "<cmd>cd /mnt/c/Working Document<cr> | <cmd>Neotree<cr>", desc = "Move WorkingDucument" }
-	maps.n["<leader>ad"] = { "<cmd>cd /mnt/c/Users/Zhaoning/Desktop/<cr> | <cmd>Neotree<cr>", desc = "Move Desktop" }
+	-- maps.n["<leader>aw"] = { "<cmd>cd /mnt/c/Working Document<cr> | <cmd>Neotree<cr>", desc = "Move WorkingDucument" }
+	-- maps.n["<leader>ad"] = { "<cmd>cd /mnt/c/Users/Zhaoning/Desktop/<cr> | <cmd>Neotree<cr>", desc = "Move Desktop" }
+	-- maps.n["<leader>an"] = { "<cmd>cd ~/.config/nvim/lua/user/<cr> | <cmd>Neotree<cr>", desc = "Move Nvim Configuration" }
+	maps.n["<leader>aw"] = { "<cmd>cd /mnt/d/Working Document/<cr> | <cmd>Neotree<cr>", desc = "Move WorkingDucument" }
+	maps.n["<leader>ad"] = { "<cmd>cd /mnt/d/Users/Desktop/<cr> | <cmd>Neotree<cr>", desc = "Move Desktop" }
 	maps.n["<leader>an"] = { "<cmd>cd ~/.config/nvim/lua/user/<cr> | <cmd>Neotree<cr>", desc = "Move Nvim Configuration" }
 
 
