@@ -1,5 +1,6 @@
 local get_icon = require("astronvim.utils").get_icon
 
+local wsl_open = require("astronvim.utils").system_open
 -- NOTE: https://github.com/adelarsq/image_preview.nvim wait alacriity pull request merge
 -- NOTE: https://github.com/nvim-neo-tree/neo-tree.nvim/issues/860 wait undo modifications close
 return {
@@ -25,11 +26,6 @@ return {
 					-- { source = "remote", display_name = get_icon("Session", 1, true) .. "Remote" },
 				},
 			},
-			-- commands = {
-			system_open = {
-				cmd = { "cmd.exe", "/K", "explorer" },
-			},
-			-- },
 			filesystem = {
 				-- hijack_netrw_behavior = "open_default",
 				-- bind_to_cwd = false,
