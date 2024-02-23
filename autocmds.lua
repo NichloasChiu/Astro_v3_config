@@ -45,8 +45,6 @@ end
 
 -- vim.api.nvim_create_user_command("MyLazyGit", require("user.utils.utils").toggle_lazy_git(), {})
 
-
-
 -- 自动添加头批注
 vim.cmd [[
 autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java,*.go exec ":call SetTitle()"
@@ -99,5 +97,14 @@ vim.cmd [[
   endif
 ]]
 
---保存自动格式化
+-- 保存自动格式化
 vim.cmd [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
+
+-- 自动切换输入法
+vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+  pattern = { "*" },
+  callback = function()
+    local input_status = tonumber(vim.fn.system "fcitx5-remote")
+    if input_status == 2 then vim.fn.system "fcitx5-remote -c" end
+  end,
+})
