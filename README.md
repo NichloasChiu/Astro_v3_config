@@ -37,6 +37,6 @@ Here's my neovim editor config file
 
 > **Author:** NichloasChiu  
 > **Date of creation:** 2024-03-21  
-> **Contact information:** [Email](NichloasChiu2outlook.com)
+> **Contact information:** [Email](mailto:NichloasChiu@outlook.com)
 
 ---
