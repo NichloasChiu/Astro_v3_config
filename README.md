@@ -1,6 +1,6 @@
 # My neovim config
 Here's my neovim editor config file  
-Disabled Disabled Disabled Disabled, stop update
+# Disabled Disabled Disabled Disabled, stop update
 ## ⚡ Requirements
 
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads) (_Optional with manual intervention:_ See [Documentation on customizing icons](https://docs.astronvim.com/Recipes/icons))
