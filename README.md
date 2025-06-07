@@ -1,5 +1,5 @@
 # My neovim config
-Here's my neovim editor config file
+Here's my neovim editor config file  
 Disabled Disabled Disabled Disabled, stop update
 ## ⚡ Requirements
 
